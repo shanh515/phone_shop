@@ -1,0 +1,44 @@
+/*手机商城列表*/
+.shop_phone_list{
+    width:900px;
+    border:1px solid #dedede;
+    float:left;
+    display:inline-block;
+}
+.shop_phone>.shop_phone_content{
+    width:20%;
+    float:left;
+    display:inline-block;
+    border:1px solid #dedede;
+    position:relative;
+    top:20px;
+}
+
+/*分页*/
+.list_btn_width{
+    width:10%;
+}
+.pagination>li+li{
+    margin-left:0.5rem;
+}
+.pagination>li>a{
+    border-radius:0.5rem !important;
+    background:transparent;
+    border:1px solid #bbb;
+}
+.pagination>li>a:hover{
+    border-color:#0aa1ed;
+    background:transparent;
+}
+.my_padding{
+    padding:0.3rem;
+}
+.my_gray{
+    border:1px solid red;
+    position: relative;
+    left:0%;
+    top:0px;
+}
+
+
+
